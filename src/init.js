@@ -46,6 +46,10 @@ $(document).ready(function() {
         $('.lineUpDancer').animate({left: "+=500"}, 2000, "swing", left)
       };
       right();
-  });   
+  });
+
+  $('.fadeOut').on('click', function(event) {
+    $('.lineUpDancer').fadeOut("slow");
+  });
 });
 
